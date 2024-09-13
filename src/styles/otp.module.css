@@ -1,0 +1,64 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otpContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px; /* Espacio adicional debajo de los inputs */
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #222; /* Fondo oscuro para los inputs */
+  color: #fff; /* Texto blanco en los inputs */
+  transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+.otpInput:focus {
+  border-color: #4caf50; /* Color verde al enfocar */
+  outline: none; /* Eliminar el contorno predeterminado */
+}
+
+.error {
+  color: #ff4d4d; /* Color rojo para el mensaje de error */
+  margin-top: 10px; /* Espacio encima del mensaje de error */
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4caf50; /* Color verde para el botón */
+  color: #fff; /* Texto blanco en el botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.button:hover {
+  background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}

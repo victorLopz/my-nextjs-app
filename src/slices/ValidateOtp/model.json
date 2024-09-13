@@ -1,0 +1,26 @@
+{
+  "id": "validate_otp",
+  "type": "SharedSlice",
+  "name": "ValidateOtp",
+  "description": "ValidateOtp",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
